@@ -1,0 +1,14 @@
+﻿body {
+    font-family:'Segoe UI','Microsoft YaHei UI','Microsoft YaHei', Tahoma, Geneva, Verdana, sans-serif
+}
+tr {
+    background-color: dodgerblue;
+    color: white;
+}
+.alternate {
+    background-color: whitesmoke;
+    color: black;
+}
+strong,p{
+    padding:2px 8px;
+}
