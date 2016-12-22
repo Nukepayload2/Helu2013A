@@ -2,9 +2,15 @@
 ## 目录
 <table>
     <thead>
-        <tr>项目名称</tr>
-        <tr>项目描述</tr>
+        <tr>
+            <td><strong>项目描述</strong></td>
+            <td><strong>项目名称</strong></td>
+        </tr>
     </thead>
+    <tr>
+        <td><strong>Helu2013A</strong></td>
+        <td><p>此复习题项目的介绍</p></td>
+    </tr>
     <tr>
         <td><strong>PagedGridView</strong></td>
         <td><p>分页显示NorthWind.mdb数据库中Categories表的内容，每页显示3个记录，并且能够通过点击数据网格下部的分页号码显示不同的页面记录。注意：数据采用程序查询填充而不是数据源控件。</p></td>

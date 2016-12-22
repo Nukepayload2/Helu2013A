@@ -5,6 +5,10 @@ tr {
     background-color: dodgerblue;
     color: white;
 }
+.thead-tr {
+    background-color: black;
+    color: white;
+}
 .alternate {
     background-color: whitesmoke;
     color: black;
