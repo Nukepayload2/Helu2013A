@@ -27,7 +27,15 @@
     </tr>
     <tr>
         <td><strong>LegacySQLQuery</strong></td>
-        <td>在SQLEXPRESS数据库中有一张Product表，表结构如下，请采用面向连接的方式编写代码，提供按ProductName查询的功能。（只写出程序，不用写出页面设计）</td>
+        <td><p>在SQLEXPRESS数据库中有一张Product表，表结构: <br />
+                    CREATE TABLE [dbo].[Product] (<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;[ProductId]   INT             IDENTITY (1, 1) NOT NULL,<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;[ProductName] VARCHAR (50)    NOT NULL,<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;[Price]       DECIMAL         NOT NULL,<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;[Stock]       INT             NOT NULL,<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;CONSTRAINT [PK_dbo.Product] PRIMARY KEY CLUSTERED ([ProductId] ASC)<br />
+                    );<br />
+                请采用面向连接的方式编写代码，提供按ProductName查询的功能。（只写出程序，不用写出页面设计）</p></td>
     </tr>
     <tr>
         <td><strong>GridViewGoToDetail</strong></td>
