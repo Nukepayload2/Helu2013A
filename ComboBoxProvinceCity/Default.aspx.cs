@@ -9,7 +9,7 @@ namespace ComboBoxProvinceCity
 {
     public partial class Default : System.Web.UI.Page
     {
-        Dictionary<string, string[]> cities = new Dictionary<string, string[]>()
+        static Dictionary<string, string[]> cities = new Dictionary<string, string[]>()
         {
             { "陕西",new string[] {"西安", "铜川", "商洛" } },
             { "河南",new string[] {"许昌", "郑州" } }
