@@ -19,17 +19,23 @@ strong,p{
 
 #lnk-view-code {
     float: right;
-    position: fixed;
+    position: absolute;
     right: 8px;
-    top: 2px;
+    top: 24px;
     text-decoration: none;
-    background-color: green;
+    background-color: dodgerblue;
     color: white;
-    padding:8px 24px;
+    padding: 8px 24px;
+    border: 2px solid dodgerblue;
+    font-weight: bold;
 }
+
     #lnk-view-code:hover {
-        background-color: limegreen;
+        background-color: #58B1DF;
+        border-color: #1871B4;
     }
+
     #lnk-view-code:active {
         background-color: black;
+        border-color: black;
     }
