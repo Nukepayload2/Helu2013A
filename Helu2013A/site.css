@@ -16,3 +16,20 @@ tr {
 strong,p{
     padding:2px 8px;
 }
+
+#lnk-view-code {
+    float: right;
+    position: fixed;
+    right: 8px;
+    top: 2px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding:8px 24px;
+}
+    #lnk-view-code:hover {
+        background-color: limegreen;
+    }
+    #lnk-view-code:active {
+        background-color: black;
+    }

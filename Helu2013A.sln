@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26009.0
+VisualStudioVersion = 15.0.26020.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helu2013A", "Helu2013A\Helu2013A.csproj", "{E7F71B00-D993-46B9-9D1D-721B75ED8A79}"
 EndProject
@@ -27,6 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsValidation", "FormsVal
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6195E889-C108-4DBA-AC53-8D0DDA11F503}"
 	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
 		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
