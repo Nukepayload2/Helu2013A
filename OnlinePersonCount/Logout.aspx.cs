@@ -15,7 +15,7 @@ namespace OnlinePersonCount
             {
                 if (Session["User"]!=null)
                 {
-                    Response.Write($@"欢迎，{Session["User"]}！<br/> 现在在线人数：{Application["UserOnline"]}");
+                    Response.Write($"欢迎，{Session["User"]}！<br/> 现在在线人数：{Application["UserOnline"]}");
                 }
                 else
                 {
